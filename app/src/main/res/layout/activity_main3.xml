@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La Candelaria es el centro vibrante de Bogotá,con lugares icónicos como una catedral de la época colonial y el Capitolio neoclásico que flanquea la Plaza Bolívar.   "
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="68dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="381dp"
+        android:layout_height="278dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="412dp"
+        android:background="@mipmap/candelaria2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
